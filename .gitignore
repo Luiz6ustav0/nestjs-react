@@ -1,6 +1,6 @@
-# compiled output
-./nest-api/dist
-./nest-api/node_modules
+# compiled outpu
+/nest-api/dist/*
+/nest-api/node_modules/*
 
 # Logs
 logs
