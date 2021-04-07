@@ -1,6 +1,6 @@
 # compiled outpu
-/nest-api/dist/*
-/nest-api/node_modules/*
+/nest-api/dist/
+/nest-api/node_modules/
 
 # Logs
 logs
@@ -27,7 +27,7 @@ lerna-debug.log*
 *.sublime-workspace
 
 # IDE - VSCode
-.vscode/*
+.vscode
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
