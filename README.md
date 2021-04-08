@@ -1,2 +1,5 @@
 # nestjs-react
-Example application using Nest and React
+If you want to give it a try, just:
+```
+docker-compose up -d
+```
