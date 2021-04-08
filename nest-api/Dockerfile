@@ -1,9 +1,13 @@
 FROM node:12.14.0-alpine3.11
 
-RUN apk add bash
+RUN mkdir -p /usr/src/app
 
-RUN npm install -g @nestjs/cli@7.5.6
+WORKDIR /usr/src/app
 
-USER node
+COPY . .
 
-WORKDIR /home/node/app
+RUN npm install
+
+EXPOSE 3000
+
+CMD ["npm", "start"]
